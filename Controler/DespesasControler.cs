@@ -16,5 +16,10 @@ namespace DA2_2017_LABCOMPRAS.Controler
             ViewBag.Title = "Entrada";
             return View();
         }
+        public IActionResult NovaDespesa()
+        {
+            
+            return View();
+        }
     }
 }

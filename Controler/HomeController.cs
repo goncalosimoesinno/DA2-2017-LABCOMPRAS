@@ -19,6 +19,7 @@ namespace DA2_2017_LABCOMPRAS.Controler
         public IActionResult Conceito()
         {
             return View();
+           
         }
     }
 }
