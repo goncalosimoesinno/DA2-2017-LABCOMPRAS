@@ -1,20 +1,11 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-    ViewBag.Title = "Entrada";
-    
+@{@Model DA2_2017_LABCOMPRAS.Models.Despesa
 }
-
-
 <div class="jumbotron">
     <div class="container text-center">
-        <h1>Home</h1>
-        <a asp-action="Conceito">Conceito</a> 
-        <a asp-action="Despesa">Despesa</a>   
+        <p>@ViewBag.Title Despesa</p>
+        <a asp-action="Index">Home</a>
     </div>
-    </div>
-
-
-
-
+</div>

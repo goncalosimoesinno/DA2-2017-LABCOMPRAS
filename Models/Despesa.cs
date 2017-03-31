@@ -7,12 +7,17 @@ namespace DA2_2017_LABCOMPRAS.Models
 {
     public class Despesa
     {
-        private string m_NomeDespesa { get; set; }
-        private int m_Quantidade { get; set; }
-        private double valor { get; set; }
-        private string Categoria { get; set; }
-        private bool Pago { get; set; }
-        }
+        public string Nome { get; set; }
+        public int Quantidade { get; set; }
+        public double valor { get; set; }
+        public string Categoria { get; set; }
+        public bool Pago { get; set; }
 
+        public Despesa()
+        { }
+        public Despesa(string Nome,int Quantidade,string Categoria)
+        { }
+    }
+    
     }
 

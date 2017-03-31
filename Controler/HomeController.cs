@@ -21,5 +21,10 @@ namespace DA2_2017_LABCOMPRAS.Controler
             return View();
            
         }
+        public IActionResult Despesa()
+        {
+            return View();
+
+        }
     }
 }
